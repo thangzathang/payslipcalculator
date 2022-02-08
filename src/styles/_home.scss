@@ -1,0 +1,59 @@
+// Home - body
+.textContent {
+  text-align: center;
+  font-size: 1.3rem;
+
+  p {
+    color: #fff;
+  }
+}
+
+.textContent p {
+  color: #fff;
+}
+
+.textTitle {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+// Home - Header
+.title {
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.textTitle {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+// Home - Search Input
+.searchInput {
+  // background-color: green;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 2rem 1rem;
+  margin: 2rem auto 0.6rem;
+
+  font-size: 2rem;
+  color: #fff;
+}
+
+.searchInputField {
+  font-size: 2rem;
+  text-indent: 14px;
+  line-height: 3rem;
+  border-radius: 12px;
+  border: none;
+  margin-left: 1.1rem;
+}
+
+.searchInputField:focus {
+  outline: none;
+}

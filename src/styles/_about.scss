@@ -1,0 +1,11 @@
+// Control the image size for individual films
+.imageContainer {
+  max-width: 12rem;
+  margin: 0 auto;
+}
+
+//  Control the image size for headshot films
+.imageContainerProfile {
+  width: 100%;
+  border-radius: 10%;
+}
