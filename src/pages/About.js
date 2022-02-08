@@ -5,7 +5,6 @@ export default function About() {
     <>
       <header>
         <title>PayslipCalc App| Home</title>
-        <meta name="keywords" content="swapi" />
       </header>
       <h1 className="title primary">
         Hi, I am Thang, <br />a fullstack web developer
@@ -16,12 +15,12 @@ export default function About() {
         </div>
         <p>A recent graduate of Australia&apos;s Coding Bootcamp - Coder Academy (Melbourne).</p>
         <p>My passion is to create fun and exciting apps on the web for my own amusement,</p>
-        <p>using the skills I have learnt over the last two years of web development.</p>
+        <p>using the skills I have learnt over my of web development journey.</p>
         <br />
         <p>I am a fullstack web developer. My biggest strength and confidence are in the </p>
-        <p>traditional languages such as HTML, CSS, Javascript, React, Firebase, MongoDB, NodeJS.</p>
+        <p>traditional languages such as HTML, CSS, Javascript, React, NodeJS.</p>
         <br />
-        <p> I have worked with other technologies such as Ruby, Ruby on Rails, AWS and Python.</p>
+        <p> I have worked with other technologies such as Ruby, Ruby on Rails, AWS and Java.</p>
         <p> Proudly made projects based upon the M.E.R.N stack and React with Firebase.</p>
         <p>You can see more of my projects at the provided links below.</p>
         <br />
@@ -39,6 +38,8 @@ export default function About() {
           </a>
           .
         </p>
+        <br />
+        <br />
       </div>
     </>
   );

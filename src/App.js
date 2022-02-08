@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Payslip from "./pages/Payslip";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About />
+            </Route>
+            <Route exact path="/payslip">
+              <Payslip />
             </Route>
           </Switch>
         </div>
