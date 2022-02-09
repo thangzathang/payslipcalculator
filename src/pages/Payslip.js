@@ -88,7 +88,7 @@ const Payslip = () => {
   };
 
   // Print the output - reverse() because it's nicer seeing your created form fill up instantly.
-  const users = usersData?.reverse().map((user) => (
+  const users = usersData?.map((user) => (
     <div className="payslipContainer">
       <div className="payslipBox" key={user.firstName + user.lastName + Math.random() * 100000}>
         <p>
