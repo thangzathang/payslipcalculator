@@ -1,0 +1,64 @@
+.payTitle {
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.formContainer {
+  background-color: #05a35fcc;
+  padding: 1rem 2rem;
+
+  border-radius: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formBox {
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.formInput {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  border: none;
+  text-indent: 1rem;
+  line-height: 2.8rem;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Payslip list
+.payslipContainer {
+  background-color: #d68317;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.payslipBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+
+  p {
+    padding: 1rem;
+
+    span {
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}

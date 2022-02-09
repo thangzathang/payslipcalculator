@@ -1,7 +1,9 @@
 import React from "react";
 
-// Navbar globals
+// globals
 import Navbar from "./components/Navbar";
+
+import Footer from "./components/Footer";
 
 // React Router Dom
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -29,6 +31,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );
